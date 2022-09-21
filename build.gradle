@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'builders'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+subprojects{
+    apply plugin: 'java'
+}
+
+allprojects{
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        testImplementation('junit:junit:4.13')
+    }
+}
+
+
+test {
+    useJUnitPlatform()
+}

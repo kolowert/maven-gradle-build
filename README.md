@@ -4,6 +4,15 @@ mvn -pl +admin,+web clean install
 ### to run test via Maven
 mvn -pl +admin,+web clean test
 
+### to build project via Gradle
+To let gradle know about all modules in project run in Terminal:
+gradle projects
+gradle clean build
+
+### to run test via Gradle
+gradle testClasses
+
+
 
 #### Maven
 
