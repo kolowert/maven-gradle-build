@@ -8,6 +8,6 @@ repositories {
 dependencies{
     implementation project(":services")
     implementation project(":utils")
-    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 }
 
